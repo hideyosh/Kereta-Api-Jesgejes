@@ -17,7 +17,7 @@ public class Main extends Application {
 
         // Mengatur judul dan scene
         primaryStage.setTitle("Login UI");
-        primaryStage.setScene(new Scene(root, 720, 479));
+        primaryStage.setScene(new Scene(root, 1920, 1080));
         primaryStage.show();
     }
 }
