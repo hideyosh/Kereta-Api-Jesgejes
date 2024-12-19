@@ -15,22 +15,22 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button layoutX="243.0" layoutY="236.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="288.0" style="-fx-background-color: #22212f;" text="Pesan Tiket" textFill="WHITE">
+            <Button fx:id="Pesan" layoutX="243.0" layoutY="236.0" mnemonicParsing="false" onAction="#PesanHandle" prefHeight="46.0" prefWidth="288.0" style="-fx-background-color: #22212f;" text="Pesan Tiket" textFill="WHITE">
                <font>
                   <Font name="Arial Bold" size="14.0" />
                </font>
             </Button>
-            <Button layoutX="14.0" layoutY="445.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="71.0" style="-fx-background-color: B10000;" text="Logout" textFill="WHITE">
+            <Button fx:id="Logout" layoutX="14.0" layoutY="445.0" mnemonicParsing="false" onAction="#LogoutHandle" prefHeight="30.0" prefWidth="71.0" style="-fx-background-color: B10000;" text="Logout" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
             </Button>
-            <Button layoutX="243.0" layoutY="166.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="288.0" style="-fx-background-color: #22212f;" text="Jadwal Tiket" textFill="WHITE">
+            <Button fx:id="Jadwal" layoutX="243.0" layoutY="166.0" mnemonicParsing="false" onAction="#JadwalHandle" prefHeight="46.0" prefWidth="288.0" style="-fx-background-color: #22212f;" text="Jadwal Tiket" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
             </Button>
-            <Button layoutX="243.0" layoutY="309.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="288.0" style="-fx-background-color: #22212f;" text="Pengaturan Akun" textFill="WHITE">
+            <Button fx:id="Pengaturan" layoutX="243.0" layoutY="309.0" mnemonicParsing="false" onAction="#PengaturanHandle" prefHeight="46.0" prefWidth="288.0" style="-fx-background-color: #22212f;" text="Pengaturan Akun" textFill="WHITE">
                <font>
                   <Font name="Arial Bold" size="14.0" />
                </font>
