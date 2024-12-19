@@ -19,27 +19,28 @@ public class AdminControl {
 
     @FXML
     void LogoutHandle(ActionEvent event) {
-    try {
-        // Muat file FXML untuk halaman LoginPage.fxml
-        root = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
-        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    } catch (IOException e) {
-        e.printStackTrace();
-        // Tambahkan penanganan kesalahan sesuai kebutuhan
+        try {
+            // Muat file FXML untuk halaman LoginPage.fxml
+            root = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
+            stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            scene = new Scene(root, 1920, 1080); // Set ukuran scene ke 1920x1080
+            stage.setScene(scene);
+            stage.setFullScreen(true); // Aktifkan layar penuh
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+            // Tambahkan penanganan kesalahan sesuai kebutuhan
+        }
     }
-}
-
     @FXML
     void aturcustbutton(ActionEvent event) {
         try {
             // Muat file FXML untuk halaman aturcust.fxml
-            root = FXMLLoader.load(getClass().getResource("AturCust.fxml"));
+            root = FXMLLoader.load(getClass().getResource("ListCust.fxml"));
             stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            scene = new Scene(root);
+            scene = new Scene(root, 1920, 1080); // Set ukuran scene ke 1920x1080
             stage.setScene(scene);
+            stage.setFullScreen(true); // Aktifkan layar penuh
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();
@@ -51,10 +52,11 @@ public class AdminControl {
     void aturjadwalbutton(ActionEvent event) {
         try {
             // Muat file FXML untuk halaman aturjadwal.fxml
-            root = FXMLLoader.load(getClass().getResource("AturJadwal.fxml"));
+            root = FXMLLoader.load(getClass().getResource("ListJadwal.fxml"));
             stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            scene = new Scene(root);
+            scene = new Scene(root, 1920, 1080); // Set ukuran scene ke 1920x1080
             stage.setScene(scene);
+            stage.setFullScreen(true); // Aktifkan layar penuh
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();
