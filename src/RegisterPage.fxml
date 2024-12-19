@@ -55,11 +55,6 @@
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="48.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" />
       <AnchorPane layoutX="565.0" layoutY="275.0" prefHeight="489.0" prefWidth="387.0" style="-fx-background-color: #cdf348;">
          <children>
-            <ImageView fitHeight="173.0" fitWidth="275.0" layoutX="56.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@img/train2.png" />
-               </image>
-            </ImageView>
             <Label layoutX="127.0" layoutY="294.0" text="di JESGEJES">
                <font>
                   <Font name="Britannic Bold" size="24.0" />
@@ -70,6 +65,11 @@
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </Label>
+            <ImageView fitHeight="173.0" fitWidth="275.0" layoutX="56.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/train2.png" />
+               </image>
+            </ImageView>
          </children>
          <styleClass>
             <String fx:value="custom-border-radius-left" />
