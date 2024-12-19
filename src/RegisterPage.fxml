@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #f1f0f6;" stylesheets="style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegisterController">
+   <children>
+      <AnchorPane layoutX="947.0" layoutY="275.0" prefHeight="489.0" prefWidth="387.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button fx:id="registerButton" layoutX="136.0" layoutY="386.0" mnemonicParsing="false" onAction="#handleRegister" prefHeight="35.0" prefWidth="96.0" style="-fx-background-color: #22212f; -fx-background-radius: 50;" text="Register" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="statusLabel" layoutX="54.0" layoutY="357.0" prefHeight="18.0" prefWidth="266.0" />
+            <Label fx:id="backLabel" layoutX="211.0" layoutY="447.0" onMouseClicked="#handleBack" text="Login disini" underline="true" />
+            <TextField fx:id="usernameField" layoutX="52.0" layoutY="163.0" prefHeight="35.0" prefWidth="266.0" style="-fx-background-radius: 50; -fx-background-color: #22212f; -fx-text-fill: white;" />
+            <PasswordField fx:id="passwordField" layoutX="52.0" layoutY="240.0" prefHeight="35.0" prefWidth="266.0" style="-fx-background-color: #22212f; -fx-background-radius: 50; -fx-text-fill: white;" />
+            <Label layoutX="55.0" layoutY="137.0" text="Username">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="216.0" text="Password">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="295.0" text="Confirm Password">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="37.0" text="Selamat Datang Kembali,">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="72.0" text="Register untuk melanjutkan" textFill="#00000082" />
+            <Label layoutX="92.0" layoutY="447.0" text="Sudah Memiliki Akun?" />
+            <PasswordField fx:id="confirmPasswordField" layoutX="52.0" layoutY="318.0" prefHeight="35.0" prefWidth="266.0" style="-fx-background-color: #22212f; -fx-background-radius: 50; -fx-text-fill: white;" />
+         </children>
+         <styleClass>
+            <String fx:value="shadow-effect" />
+            <String fx:value="custom-border-radius" />
+         </styleClass>
+      </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="48.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane layoutX="565.0" layoutY="275.0" prefHeight="489.0" prefWidth="387.0" style="-fx-background-color: #cdf348;">
+         <children>
+            <ImageView fitHeight="173.0" fitWidth="275.0" layoutX="56.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/train2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="127.0" layoutY="294.0" text="di JESGEJES">
+               <font>
+                  <Font name="Britannic Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="135.0" layoutY="272.0" text="Selamat Datang">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <styleClass>
+            <String fx:value="custom-border-radius-left" />
+            <String fx:value="shadow-effect" />
+         </styleClass>
+      </AnchorPane>
+   </children>
+   <styleClass>
+      <String fx:value="shadow-effect" />
+      <String fx:value="custom-border-radius-left" />
+   </styleClass>
+</AnchorPane>

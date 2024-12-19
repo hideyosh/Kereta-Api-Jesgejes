@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: gray;" stylesheets="style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="570.0" layoutY="275.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="781.0" style="-fx-background-color: #cdf348;">
+         <children>
+            <Label layoutX="243.0" layoutY="45.0" text="Hi, Customer">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="243.0" layoutY="236.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="288.0" style="-fx-background-color: #383838;" text="Pesan Tiket" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="445.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="71.0" style="-fx-background-color: B10000;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="243.0" layoutY="166.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="288.0" style="-fx-background-color: #383838;" text="Jadwal Tiket" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="243.0" layoutY="309.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="288.0" style="-fx-background-color: #383838;" text="Pengaturan Akun" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="243.0" layoutY="72.0" text="Selamat Datang di Jesgejes">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <styleClass>
+            <String fx:value="shadow-effect" />
+            <String fx:value="custom-border-radius-full" />
+         </styleClass>
+      </AnchorPane>
+   </children>
+</AnchorPane>
